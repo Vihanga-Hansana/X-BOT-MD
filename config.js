@@ -8,12 +8,24 @@ if (fs.existsSync('config.env')) {
 }
 
 const API = "https://api-aswin-sparky.koyeb.app";
-const ALIVE = process.env.ALIVE || "I am Alive";
+const ALIVE = process.env.ALIVE || "ᴡᴇʟᴄᴏᴍᴇ ᴛᴏ ᴛʜᴇ ɴɪᴋɪ ʙᴏᴛ ᴏꜰꜰɪᴄɪᴀʟ ɢʀᴏᴜᴩ.
+
+Owner - ᴠɪʜᴀɴɢᴀ ʜᴀɴꜱᴀɴᴀ
+
+පහත දක්වා ඇති සියලු නීති ඔබ විසින් පිළිපැදිය යුතු අතර, එසේ නොකරහොත් ඔබව සමුහයෙන් ඉවත් කරනු ලැබේ.
+
+⭕ සමුහයේ සිටින සෑම සාමාජිකයෙකුටම ගරු කල යුතු අතර ඔවුන්ට බාධාවක් නොවන පරිදි වැඩ කරගන්න.
+
+⭕ සමුහය තුල අනිසි වීඩියෝ හෝ පින්තුර පල කිරීමෙන් වලකින්න.
+
+⭕ කුණුහරප භාවිතා කිරීමෙන් වලකින්න.
+
+ᴛʜᴇ ɴɪᴋɪ ʙᴏᴛ ʙʏ ᴠɪʜᴀɴɢᴀ ʜᴀɴꜱᴀɴᴀ";
 const HANDLERS = process.env.HANDLER || "^";
-const SESSION_ID = process.env.SESSION_ID || "";
-const SUDO = process.env.SUDO || '917012984396';
+const SESSION_ID = process.env.SESSION_ID || "A-S-W-I-N-S-P-A-R-K-Y:9b2b94f9cb01416784025c32fe7e0d54";
+const SUDO = process.env.SUDO || '94759504894';
 const AUTO_STATUS_VIEW = process.env.AUTO_STATUS_VIEW || "true";
-const ALWAYS_ONLINE = process.env.ALWAYS_ONLINE || "false";
+const ALWAYS_ONLINE = process.env.ALWAYS_ONLINE || "true";
 const DISABLE_PM = process.env.DISABLE_PM  || "false";
 const PM_BLOCK = process.env.PM_BLOCK || "false";
 const PMB = process.env.PMB || "Sorry, I can't help you in private chat.";
@@ -21,11 +33,11 @@ const READ_MESSAGES = process.env.READ_MESSAGES || "false";
 const BOT_INFO = process.env.BOT_INFO || "X-BOT-MD;ASWIN SPARKY;https://i.imgur.com/r3GZeiX.jpeg";
 const URL = process.env.URL || "https://www.instagram.com/absolutely_sparky";
 const AUDIO_DATA = process.env.AUDIO_DATA || "X BOT MD;ASWIN SPARKY;https://i.imgur.com/fVCRCYG.jpeg";
-const STICKER_DATA = process.env.STICKER_DATA || "X BOT MD;ASWIN SPARKY";
-const WORK_TYPE = process.env.WORK_TYPE || 'public';
+const STICKER_DATA = process.env.STICKER_DATA || "ᴛʜᴇ ɴɪᴋɪ ʙᴏᴛ;ᴠɪʜᴀɴɢᴀ ʜᴀɴᴅᴀɴᴀ";
+const WORK_TYPE = process.env.WORK_TYPE || 'publicprivate';
 const DATABASE_URL = process.env.DATABASE_URL || "./lib/database.db";
 const HEROKU_APP_NAME = process.env.HEROKU_APP_NAME || "";
-const HEROKU_API_KEY = process.env.HEROKU_API_KEY || "";
+const HEROKU_API_KEY = process.env.HEROKU_API_KEY || "HRKU-ab747ce5-ebd3-42cc-985f-d63cb0597ab7";
 const KOYEB_API_KEY = process.env.KOYEB_API_KEY || "";
 
 
